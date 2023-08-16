@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if(num % 2 == 0) {
+        printf("%d is an even number.\n", num);
+    } else {
+        printf("%d is an odd number.\n", num);
+    }
+    
+    return 0;
+}
+
+
+Output:
+Enter a number: 5432
+5432 is an even number.
+
+--------------------------------
+Process exited after 14.23 seconds with return value 0
+Press any key to continue . . .
